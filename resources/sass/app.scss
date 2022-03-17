@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import 'pages/header';
+@import 'pages/footer';
+@import 'pages/home';
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  .main {
+    height: 100%;
+    .layout {
+      height: 100%;
+      #main-container {
+        height: calc(100% - 107.3px);
+        // overflow: hidden scroll;
+        scrollbar-width: thin;
+        max-height: 100%;
+      }
+    }
+  }
+}
+

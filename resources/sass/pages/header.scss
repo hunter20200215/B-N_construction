@@ -1,0 +1,14 @@
+.header{
+    .logo-image-style {
+      width: 400px;
+    }
+  } 
+
+  @media screen and (max-width:600px) {
+    .header{
+      .logo-image-style {
+        width: 250px;
+      }
+    } 
+  
+  }
