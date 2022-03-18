@@ -7,18 +7,38 @@
 
 body {
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  .title-font {
+    font-size: 65px;
+  }
+  .primary-color1 {
+    color:#f58020;
+  }
+  .primary-background1 {
+    background-color: #f58020;
+  }
+  .default-font1 {
+    font-size: 18px;
+  }
   .main {
     height: 100%;
     .layout {
       height: 100%;
-      #main-container {
-        height: calc(100% - 107.3px);
-        // overflow: hidden scroll;
-        scrollbar-width: thin;
-        max-height: 100%;
-      }
+      // #main-container {
+      //   height: calc(100% - 107.3px);
+      //   overflow: hidden scroll;
+      //   scrollbar-width: thin;
+      //   max-height: 100%;
+      // }
     }
   }
+  @media screen and (max-width:600px) {
+    .title-font {
+      font-size: 50px;
+    }
+  
+  }
+
 }
+
 

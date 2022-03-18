@@ -3,11 +3,11 @@
         <div class="bg-secondary p-1">
             <b-row class="mx-4">
                 <b-col md="2" sm="12">
-                    <b-icon icon="telephone-fill" style="width: 16px; height: 16px;" variant="warning"></b-icon>
+                    <b-icon icon="telephone-fill" style="width: 16px; height: 16px;" class="primary-color1"></b-icon>
                     <span class="ml-1 text-light">+27 81 547 4711</span>
                 </b-col>
                 <b-col md="4" sm="12">
-                    <b-icon icon="envelope" style="width: 16px; height: 16px;" variant="warning"></b-icon>
+                    <b-icon icon="envelope" style="width: 16px; height: 16px;" class="primary-color1"></b-icon>
                     <span class="ml-1 text-light">nyashamurasiranwa17@gmail.com</span>
                 </b-col>
             </b-row>

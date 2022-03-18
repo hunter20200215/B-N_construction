@@ -182,6 +182,97 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -197,8 +288,29 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         task_name: null,
         task_description: null
       },
-      textfields: ["New construction", "Facilities Maintenance `&` Repair", "Remodeling", "      Tenant Finish"],
-      desctext: "We understand that building owners and tenants need to focus on running their business… not managing the complexities of building maintenance. Let B&N Construction help you with your facility needs in Muizenberg, Western Cape."
+      textfields: ["New Construction", "Facilities Maintenance `&` Repair", "Remodeling", "      Tenant Finish"],
+      desctext: "We understand that building owners and tenants need to focus on running their business… not managing the complexities of building maintenance. Let B&N Construction help you with your facility needs in Muizenberg, Western Cape.",
+      services: ['New Construction', 'Interior Design', 'Exterrior Remodel'],
+      needtext: 'Meeting Brighton &Nyasha Construction Needs!',
+      descriptions: ['B&N Construction specializes in new Construction, interior renovation and remodeling for house and businesses in Cape Town, Western Cape. Let us recreate your home and office space to fit your vision.', 'Our team of dedicated professionals has the experience and attention to detail necessary to complete your project. We provid project solutions with the backing and security of a proven construction leader.', 'Give us call so we can start on exceeding your expectations.'],
+      servicegroups: {
+        first: {
+          title: "New Construction",
+          desc: "Let us design and build your new Building, facility in Cape town, West Cape or the surrounding area."
+        },
+        second: {
+          title: "Interior and Exterior Remodeling/Tenant Finish",
+          desc: "Does your facility need a facelift? Let us remodel your home and business. We provide tenant repairs of all kinds."
+        },
+        third: {
+          title: "Facility Maintennance",
+          desc: "Let Foulston Constuction provide the maintenance for service your require for your building or office."
+        },
+        forth: {
+          title: "Additions",
+          desc: "Our specialty is completing additions to our clients satisfaction. like Paving, Brickwork, Plastering, Skimming, Flooring, Painting,Landscape,Electricity,Ceiling"
+        }
+      }
     };
   },
   validations: {
@@ -589,56 +701,465 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "top-section" }, [
-    _c("div", { staticClass: "envoled" }),
+  return _c("div", [
+    _c("section", { staticClass: "top-section" }, [
+      _c("div", { staticClass: "envoled" }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "text-container text-center" },
+        [
+          _c(
+            "vue-typed-js",
+            {
+              staticClass: "d-block pt-5",
+              attrs: {
+                strings: _vm.textfields,
+                loop: true,
+                typeSpeed: 150,
+                showCursor: false,
+              },
+            },
+            [_c("h1", { staticClass: "typing text-center animation-text" })]
+          ),
+          _vm._v(" "),
+          _c(
+            "p",
+            {
+              staticClass: "py-2",
+              staticStyle: {
+                "font-size": "18px",
+                "font-weight": "400",
+                "line-height": "1.8em",
+              },
+            },
+            [_vm._v(_vm._s(_vm.desctext))]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "text-center pb-3" },
+            [
+              _c(
+                "b-link",
+                { attrs: { href: "/contact" } },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      staticStyle: { border: "1px solid" },
+                      attrs: { size: "lg", variant: "secondary" },
+                    },
+                    [_vm._v("Contact Us")]
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      ),
+    ]),
     _vm._v(" "),
     _c(
-      "div",
-      { staticClass: "text-container text-center" },
+      "section",
+      [
+        _c("b-img", {
+          staticClass: "w-100",
+          attrs: {
+            src: "./images/curves-under-header.png",
+            alt: "Responsive image",
+          },
+        }),
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "sevices" },
       [
         _c(
-          "vue-typed-js",
-          {
-            staticClass: "d-block pt-5",
-            attrs: {
-              strings: _vm.textfields,
-              loop: true,
-              typeSpeed: 150,
-              showCursor: false,
-            },
-          },
-          [_c("h1", { staticClass: "typing text-center animation-text" })]
-        ),
-        _vm._v(" "),
-        _c(
-          "p",
-          {
-            staticClass: "py-2",
-            staticStyle: {
-              "font-size": "18px",
-              "font-weight": "400",
-              "line-height": "1.8em",
-            },
-          },
-          [_vm._v(_vm._s(_vm.desctext))]
-        ),
-        _vm._v(" "),
-        _c(
           "div",
-          { staticClass: "text-center pb-3" },
+          { staticClass: "mb-3" },
           [
+            _vm._m(0),
+            _vm._v(" "),
             _c(
-              "b-link",
-              { attrs: { href: "/contact" } },
+              "b-row",
               [
                 _c(
-                  "b-button",
-                  {
-                    staticStyle: { border: "1px solid" },
-                    attrs: { size: "lg", variant: "secondary" },
-                  },
-                  [_vm._v("Contact Us")]
+                  "b-col",
+                  { attrs: { md: "4", sm: "12" } },
+                  [
+                    _c("b-img", {
+                      staticClass: "w-100 border border-2 border-dark",
+                      attrs: {
+                        src: "./images/fc-showcase1.jpg",
+                        alt: "Responsive image",
+                      },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "mt-3 text-center font-weight-bold primary-color1",
+                        staticStyle: { "font-size": "17px" },
+                      },
+                      [_vm._v(_vm._s(_vm.services[0]))]
+                    ),
+                  ],
+                  1
                 ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { md: "4", sm: "12" } },
+                  [
+                    _c("b-img", {
+                      staticClass: "w-100 border border-2 border-dark",
+                      attrs: {
+                        src: "./images/fc-showcase2.jpg",
+                        alt: "Responsive image",
+                      },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "mt-3 text-center font-weight-bold primary-color1",
+                        staticStyle: { "font-size": "17px" },
+                      },
+                      [_vm._v(_vm._s(_vm.services[1]))]
+                    ),
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { md: "4", sm: "12" } },
+                  [
+                    _c("b-img", {
+                      staticClass: "w-100 border border-2 border-dark",
+                      attrs: {
+                        src: "./images/fc-showcase3.jpg",
+                        alt: "Responsive image",
+                      },
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "mt-3 text-center font-weight-bold primary-color1",
+                        staticStyle: { "font-size": "17px" },
+                      },
+                      [_vm._v(_vm._s(_vm.services[2]))]
+                    ),
+                  ],
+                  1
+                ),
+              ],
+              1
+            ),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "b-container",
+          { staticClass: "text-left" },
+          [
+            _c(
+              "b-row",
+              { staticClass: "my-3" },
+              [
+                _c("b-col", { attrs: { md: "6", sm: "12" } }, [
+                  _c("h2", {}, [_vm._v(_vm._s(_vm.needtext))]),
+                ]),
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "b-row",
+              { staticClass: "my-1" },
+              [
+                _c(
+                  "b-col",
+                  { staticClass: "mb-5", attrs: { md: "6", sm: "12" } },
+                  [
+                    _c("div", { staticClass: "mt-3 mb-5" }, [
+                      _c("p", [_vm._v(_vm._s(_vm.descriptions[0]))]),
+                      _vm._v(" "),
+                      _c("p", [_vm._v(_vm._s(_vm.descriptions[1]))]),
+                      _vm._v(" "),
+                      _c("p", [_vm._v(_vm._s(_vm.descriptions[2]))]),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "b-button",
+                      {
+                        staticClass:
+                          "primary-background1 border border-radius-1",
+                        staticStyle: { color: "white" },
+                        attrs: { size: "lg", href: "/about" },
+                      },
+                      [_vm._v("Learn More")]
+                    ),
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("b-col", { attrs: { md: "6", sm: "12" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "accordion", attrs: { role: "tablist" } },
+                    [
+                      _c(
+                        "b-card",
+                        { attrs: { "no-body": "" } },
+                        [
+                          _c(
+                            "b-card-header",
+                            {
+                              staticClass: "p-1",
+                              attrs: { "header-tag": "header", role: "tab" },
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-toggle",
+                                      rawName: "v-b-toggle.accordion-1",
+                                      modifiers: { "accordion-1": true },
+                                    },
+                                  ],
+                                  staticClass:
+                                    "primary-color1 font-weight-bold defauilt-font1",
+                                  attrs: { block: "", variant: "outline-dark" },
+                                },
+                                [_vm._v(_vm._s(_vm.servicegroups.first.title))]
+                              ),
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-collapse",
+                            {
+                              attrs: {
+                                id: "accordion-1",
+                                accordion: "my-accordion",
+                                role: "tabpanel",
+                              },
+                            },
+                            [
+                              _c(
+                                "b-card-body",
+                                [
+                                  _c("b-card-text", [
+                                    _vm._v(
+                                      _vm._s(_vm.servicegroups.first.desc)
+                                    ),
+                                  ]),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-card",
+                        { attrs: { "no-body": "" } },
+                        [
+                          _c(
+                            "b-card-header",
+                            {
+                              staticClass: "p-1",
+                              attrs: { "header-tag": "header", role: "tab" },
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-toggle",
+                                      rawName: "v-b-toggle.accordion-2",
+                                      modifiers: { "accordion-2": true },
+                                    },
+                                  ],
+                                  staticClass:
+                                    "primary-color1 font-weight-bold defauilt-font1",
+                                  attrs: { block: "", variant: "outline-dark" },
+                                },
+                                [_vm._v(_vm._s(_vm.servicegroups.second.title))]
+                              ),
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-collapse",
+                            {
+                              attrs: {
+                                id: "accordion-2",
+                                accordion: "my-accordion",
+                                role: "tabpanel",
+                              },
+                            },
+                            [
+                              _c(
+                                "b-card-body",
+                                [
+                                  _c("b-card-text", [
+                                    _vm._v(
+                                      _vm._s(_vm.servicegroups.second.desc)
+                                    ),
+                                  ]),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-card",
+                        { attrs: { "no-body": "" } },
+                        [
+                          _c(
+                            "b-card-header",
+                            {
+                              staticClass: "p-1",
+                              attrs: { "header-tag": "header", role: "tab" },
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-toggle",
+                                      rawName: "v-b-toggle.accordion-3",
+                                      modifiers: { "accordion-3": true },
+                                    },
+                                  ],
+                                  staticClass:
+                                    "primary-color1 font-weight-bold defauilt-font1",
+                                  attrs: { block: "", variant: "outline-dark" },
+                                },
+                                [_vm._v(_vm._s(_vm.servicegroups.third.title))]
+                              ),
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-collapse",
+                            {
+                              attrs: {
+                                id: "accordion-3",
+                                accordion: "my-accordion",
+                                role: "tabpanel",
+                              },
+                            },
+                            [
+                              _c(
+                                "b-card-body",
+                                [
+                                  _c("b-card-text", [
+                                    _vm._v(
+                                      _vm._s(_vm.servicegroups.third.desc)
+                                    ),
+                                  ]),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-card",
+                        { attrs: { "no-body": "" } },
+                        [
+                          _c(
+                            "b-card-header",
+                            {
+                              staticClass: "p-1",
+                              attrs: { "header-tag": "header", role: "tab" },
+                            },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-toggle",
+                                      rawName: "v-b-toggle.accordion-4",
+                                      modifiers: { "accordion-4": true },
+                                    },
+                                  ],
+                                  staticClass:
+                                    "primary-color1 font-weight-bold defauilt-font1",
+                                  attrs: { block: "", variant: "outline-dark" },
+                                },
+                                [_vm._v(_vm._s(_vm.servicegroups.forth.title))]
+                              ),
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-collapse",
+                            {
+                              attrs: {
+                                id: "accordion-4",
+                                accordion: "my-accordion",
+                                role: "tabpanel",
+                              },
+                            },
+                            [
+                              _c(
+                                "b-card-body",
+                                [
+                                  _c("b-card-text", [
+                                    _vm._v(
+                                      _vm._s(_vm.servicegroups.forth.desc)
+                                    ),
+                                  ]),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                    ],
+                    1
+                  ),
+                ]),
               ],
               1
             ),
@@ -648,9 +1169,34 @@ var render = function () {
       ],
       1
     ),
+    _vm._v(" "),
+    _c(
+      "section",
+      [
+        _c("b-img", {
+          staticClass: "w-100",
+          attrs: {
+            src: "./images/curves-above-section.png",
+            alt: "Responsive image",
+          },
+        }),
+      ],
+      1
+    ),
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h1", { staticClass: "text-center primary-color1 title-font mb-5" }, [
+        _vm._v("Our Services"),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 

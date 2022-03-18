@@ -403,8 +403,9 @@ var render = function () {
                 { attrs: { md: "2", sm: "12" } },
                 [
                   _c("b-icon", {
+                    staticClass: "primary-color1",
                     staticStyle: { width: "16px", height: "16px" },
-                    attrs: { icon: "telephone-fill", variant: "warning" },
+                    attrs: { icon: "telephone-fill" },
                   }),
                   _vm._v(" "),
                   _c("span", { staticClass: "ml-1 text-light" }, [
@@ -419,8 +420,9 @@ var render = function () {
                 { attrs: { md: "4", sm: "12" } },
                 [
                   _c("b-icon", {
+                    staticClass: "primary-color1",
                     staticStyle: { width: "16px", height: "16px" },
-                    attrs: { icon: "envelope", variant: "warning" },
+                    attrs: { icon: "envelope" },
                   }),
                   _vm._v(" "),
                   _c("span", { staticClass: "ml-1 text-light" }, [

@@ -1,21 +1,112 @@
 <template>
-    <section class="top-section">
-        <div class="envoled"></div>
-        <div class="text-container text-center">
-            <vue-typed-js :strings="textfields" :loop="true" :typeSpeed="150" 	:showCursor="false" class="d-block pt-5">
-                <h1 class="typing text-center animation-text"></h1>
-            </vue-typed-js>
-            
-            <p class="py-2" style="font-size:17px;font-size: 18px;font-weight:400;line-height: 1.8em;">{{desctext}}</p>
-            <div class="text-center pb-3">
-                <b-link href="/contact" class=""> 
-                <b-button size="lg" variant="secondary" style="border:1px solid;">Contact Us</b-button>
-            </b-link>
+    <div>
+         <section class="top-section">
+            <div class="envoled"></div>
+            <div class="text-container text-center">
+                <vue-typed-js :strings="textfields" :loop="true" :typeSpeed="150" 	:showCursor="false" class="d-block pt-5">
+                    <h1 class="typing text-center animation-text"></h1>
+                </vue-typed-js>
+                
+                <p class="py-2" style="font-size:17px;font-size: 18px;font-weight:400;line-height: 1.8em;">{{desctext}}</p>
+                <div class="text-center pb-3">
+                    <b-link href="/contact" class=""> 
+                        <b-button size="lg" variant="secondary" style="border:1px solid;">Contact Us</b-button>
+                    </b-link>
+                </div>
             </div>
-        </div>
-        
-        
-    </section>
+        </section>
+        <section>
+            <b-img src="./images/curves-under-header.png" alt="Responsive image" class="w-100"></b-img>
+        </section>
+        <section class="sevices">
+            <div class="mb-3">
+                <div>
+                    <h1 class="text-center primary-color1 title-font mb-5">Our Services</h1>
+                </div>
+                <b-row>
+                    <b-col md="4" sm="12">
+                        <b-img src="./images/fc-showcase1.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
+                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[0]}}</p>
+                    </b-col>
+                    <b-col md="4" sm="12">
+                        <b-img src="./images/fc-showcase2.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
+                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[1]}}</p>
+                    </b-col>
+                    <b-col md="4" sm="12">
+                        <b-img src="./images/fc-showcase3.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
+                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[2]}}</p>
+                    </b-col>
+                </b-row>
+            </div>
+            <b-container class="text-left">
+                <b-row class="my-3">
+                    <b-col md="6" sm="12">
+                        <h2 class="">{{needtext}}</h2>
+                    </b-col>
+                </b-row>
+                <b-row class="my-1">
+                    <b-col md="6" sm="12" class="mb-5">
+                        <div class="mt-3 mb-5" >
+                            <p>{{ descriptions[0] }}</p>
+                            <p>{{ descriptions[1]}}</p>
+                            <p>{{ descriptions[2]}}</p>
+                        </div>
+                        <b-button size="lg" href="/about" class="primary-background1 border border-radius-1" style="color:white;">Learn More</b-button>
+                    </b-col>
+                    <b-col md="6" sm="12">
+                        <div class="accordion" role="tablist">
+                            <b-card no-body class="">
+                                <b-card-header header-tag="header" class="p-1" role="tab">
+                                    <b-button block v-b-toggle.accordion-1 variant="outline-dark" class="primary-color1 font-weight-bold defauilt-font1">{{servicegroups.first.title}}</b-button>
+                                </b-card-header>
+                                <b-collapse id="accordion-1"  accordion="my-accordion" role="tabpanel">
+                                    <b-card-body>
+                                        <b-card-text>{{servicegroups.first.desc}}</b-card-text>
+                                    </b-card-body>
+                                </b-collapse>
+                            </b-card>
+                            <b-card no-body class="">
+                                <b-card-header header-tag="header" class="p-1" role="tab">
+                                    <b-button block v-b-toggle.accordion-2 variant="outline-dark" class="primary-color1 font-weight-bold defauilt-font1">{{servicegroups.second.title}}</b-button>
+                                </b-card-header>
+                                <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                                    <b-card-body>
+                                        <b-card-text>{{ servicegroups.second.desc }}</b-card-text>
+                                    </b-card-body>
+                                </b-collapse>
+                            </b-card>
+
+                            <b-card no-body class="">
+                                <b-card-header header-tag="header" class="p-1" role="tab">
+                                    <b-button block v-b-toggle.accordion-3 variant="outline-dark" class="primary-color1 font-weight-bold defauilt-font1">{{servicegroups.third.title}}</b-button>
+                                </b-card-header>
+                                <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                                    <b-card-body>
+                                        <b-card-text>{{ servicegroups.third.desc }}</b-card-text>
+                                    </b-card-body>
+                                </b-collapse>
+                            </b-card>
+                            <b-card no-body class="">
+                                <b-card-header header-tag="header" class="p-1" role="tab">
+                                    <b-button block v-b-toggle.accordion-4 variant="outline-dark" class="primary-color1 font-weight-bold defauilt-font1">{{servicegroups.forth.title}}</b-button>
+                                </b-card-header>
+                                <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+                                    <b-card-body>
+                                        <b-card-text>{{ servicegroups.forth.desc }}</b-card-text>
+                                    </b-card-body>
+                                </b-collapse>
+                            </b-card>
+                        </div>
+                    </b-col>
+                </b-row>
+            </b-container>
+        </section>
+        <section>
+            <b-img src="./images/curves-above-section.png" alt="Responsive image" class="w-100"></b-img>
+        </section>
+    </div>
+   
+
 </template>
 <script>
 import { mapGetters } from "vuex";
@@ -31,8 +122,29 @@ export default {
                 task_name: null,
                 task_description: null,
             },
-            textfields: [ "New construction","Facilities Maintenance `&` Repair","Remodeling","      Tenant Finish"],
-            desctext:"We understand that building owners and tenants need to focus on running their business… not managing the complexities of building maintenance. Let B&N Construction help you with your facility needs in Muizenberg, Western Cape."
+            textfields: [ "New Construction","Facilities Maintenance `&` Repair","Remodeling","      Tenant Finish"],
+            desctext:"We understand that building owners and tenants need to focus on running their business… not managing the complexities of building maintenance. Let B&N Construction help you with your facility needs in Muizenberg, Western Cape.",
+            services:['New Construction', 'Interior Design', 'Exterrior Remodel'],
+            needtext:'Meeting Brighton &Nyasha Construction Needs!',
+            descriptions:['B&N Construction specializes in new Construction, interior renovation and remodeling for house and businesses in Cape Town, Western Cape. Let us recreate your home and office space to fit your vision.', 'Our team of dedicated professionals has the experience and attention to detail necessary to complete your project. We provid project solutions with the backing and security of a proven construction leader.', 'Give us call so we can start on exceeding your expectations.'],
+            servicegroups: {
+                first:{
+                    title:"New Construction",
+                    desc:"Let us design and build your new Building, facility in Cape town, West Cape or the surrounding area."
+                },
+                second:{
+                    title:"Interior and Exterior Remodeling/Tenant Finish",
+                    desc:"Does your facility need a facelift? Let us remodel your home and business. We provide tenant repairs of all kinds."
+                },
+                third:{
+                    title:"Facility Maintennance",
+                    desc:"Let Foulston Constuction provide the maintenance for service your require for your building or office."
+                },
+                forth:{
+                    title:"Additions",
+                    desc:"Our specialty is completing additions to our clients satisfaction. like Paving, Brickwork, Plastering, Skimming, Flooring, Painting,Landscape,Electricity,Ceiling"
+                },
+            }
         };
     },
     validations: {
