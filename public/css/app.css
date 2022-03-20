@@ -45,6 +45,22 @@ body .sevices {
   margin-left: auto;
   margin-right: auto;
 }
+body .service-confirm {
+  background-color: #000000;
+  background-image: url(http://www.foulstonconstruction.com/wp-content/uploads/2018/10/DSC_0060.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+body .service-confirm .envoled {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 @media screen and (max-width: 600px) {
   body .top-section .text-container .animation-text {
     height: 170px;

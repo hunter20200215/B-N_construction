@@ -273,6 +273,20 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -304,13 +318,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         },
         third: {
           title: "Facility Maintennance",
-          desc: "Let Foulston Constuction provide the maintenance for service your require for your building or office."
+          desc: "Let B&N Constuction provide the maintenance for service your require for your building or office."
         },
         forth: {
           title: "Additions",
           desc: "Our specialty is completing additions to our clients satisfaction. like Paving, Brickwork, Plastering, Skimming, Flooring, Painting,Landscape,Electricity,Ceiling"
         }
-      }
+      },
+      headache: 'Talking the Headache out of your Construction Project!'
     };
   },
   validations: {
@@ -728,7 +743,7 @@ var render = function () {
             {
               staticClass: "py-2",
               staticStyle: {
-                "font-size": "18px",
+                "font-size": "19px",
                 "font-weight": "400",
                 "line-height": "1.8em",
               },
@@ -806,8 +821,7 @@ var render = function () {
                       "p",
                       {
                         staticClass:
-                          "mt-3 text-center font-weight-bold primary-color1",
-                        staticStyle: { "font-size": "17px" },
+                          "mt-3 text-center font-weight-bold primary-color1 default-font1",
                       },
                       [_vm._v(_vm._s(_vm.services[0]))]
                     ),
@@ -831,8 +845,7 @@ var render = function () {
                       "p",
                       {
                         staticClass:
-                          "mt-3 text-center font-weight-bold primary-color1",
-                        staticStyle: { "font-size": "17px" },
+                          "mt-3 text-center font-weight-bold primary-color1 default-font1",
                       },
                       [_vm._v(_vm._s(_vm.services[1]))]
                     ),
@@ -856,8 +869,7 @@ var render = function () {
                       "p",
                       {
                         staticClass:
-                          "mt-3 text-center font-weight-bold primary-color1",
-                        staticStyle: { "font-size": "17px" },
+                          "mt-3 text-center font-weight-bold primary-color1 default-font1",
                       },
                       [_vm._v(_vm._s(_vm.services[2]))]
                     ),
@@ -1180,6 +1192,71 @@ var render = function () {
             alt: "Responsive image",
           },
         }),
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "section",
+      { staticClass: "service-confirm" },
+      [
+        _c("div", { staticClass: "envoled" }),
+        _vm._v(" "),
+        _c(
+          "b-container",
+          { staticClass: "py-5" },
+          [
+            _c(
+              "b-row",
+              { attrs: { "align-v": "center" } },
+              [
+                _c(
+                  "b-col",
+                  { staticClass: "py-4", attrs: { md: "6", sm: "12" } },
+                  [
+                    _c(
+                      "h1",
+                      {
+                        staticClass: "mb-5",
+                        staticStyle: { "font-size": "50px", color: "white" },
+                      },
+                      [_vm._v(_vm._s(_vm.headache))]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "b-button",
+                      {
+                        staticClass:
+                          "primary-background1 border border-radius-1",
+                        staticStyle: { color: "white" },
+                        attrs: { size: "lg", href: "/about" },
+                      },
+                      [_vm._v("Read More")]
+                    ),
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "b-col",
+                  { attrs: { md: "6", sm: "12" } },
+                  [
+                    _c("b-img", {
+                      attrs: {
+                        src: "./images/FB_IMG_1644005970210.jpg",
+                        fluid: "",
+                        alt: "Responsive image",
+                      },
+                    }),
+                  ],
+                  1
+                ),
+              ],
+              1
+            ),
+          ],
+          1
+        ),
       ],
       1
     ),

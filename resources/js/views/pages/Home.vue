@@ -7,7 +7,7 @@
                     <h1 class="typing text-center animation-text"></h1>
                 </vue-typed-js>
                 
-                <p class="py-2" style="font-size:17px;font-size: 18px;font-weight:400;line-height: 1.8em;">{{desctext}}</p>
+                <p class="py-2" style="font-size:17px;font-size: 19px;font-weight:400;line-height: 1.8em;">{{desctext}}</p>
                 <div class="text-center pb-3">
                     <b-link href="/contact" class=""> 
                         <b-button size="lg" variant="secondary" style="border:1px solid;">Contact Us</b-button>
@@ -26,15 +26,15 @@
                 <b-row>
                     <b-col md="4" sm="12">
                         <b-img src="./images/fc-showcase1.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
-                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[0]}}</p>
+                        <p class="mt-3 text-center font-weight-bold primary-color1 default-font1">{{services[0]}}</p>
                     </b-col>
                     <b-col md="4" sm="12">
                         <b-img src="./images/fc-showcase2.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
-                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[1]}}</p>
+                        <p class="mt-3 text-center font-weight-bold primary-color1 default-font1">{{services[1]}}</p>
                     </b-col>
                     <b-col md="4" sm="12">
                         <b-img src="./images/fc-showcase3.jpg"  alt="Responsive image" class="w-100 border border-2 border-dark"></b-img>
-                        <p class="mt-3 text-center font-weight-bold primary-color1" style="font-size:17px;">{{services[2]}}</p>
+                        <p class="mt-3 text-center font-weight-bold primary-color1 default-font1">{{services[2]}}</p>
                     </b-col>
                 </b-row>
             </div>
@@ -104,6 +104,20 @@
         <section>
             <b-img src="./images/curves-above-section.png" alt="Responsive image" class="w-100"></b-img>
         </section>
+        <section class="service-confirm">
+            <div class="envoled"></div>
+            <b-container class="py-5">
+                <b-row align-v="center">
+                    <b-col md="6" sm="12" class="py-4">
+                        <h1 class="mb-5" style="font-size:50px;color:white;">{{headache}}</h1>
+                        <b-button size="lg" href="/about" class="primary-background1 border border-radius-1" style="color:white;">Read More</b-button>
+                    </b-col> 
+                    <b-col md="6" sm="12">
+                        <b-img src="./images/FB_IMG_1644005970210.jpg" fluid alt="Responsive image"></b-img>
+                    </b-col>
+                </b-row>
+            </b-container>
+        </section>
     </div>
    
 
@@ -138,13 +152,14 @@ export default {
                 },
                 third:{
                     title:"Facility Maintennance",
-                    desc:"Let Foulston Constuction provide the maintenance for service your require for your building or office."
+                    desc:"Let B&N Constuction provide the maintenance for service your require for your building or office."
                 },
                 forth:{
                     title:"Additions",
                     desc:"Our specialty is completing additions to our clients satisfaction. like Paving, Brickwork, Plastering, Skimming, Flooring, Painting,Landscape,Electricity,Ceiling"
                 },
-            }
+            },
+            headache:'Talking the Headache out of your Construction Project!',
         };
     },
     validations: {
