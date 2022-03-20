@@ -428,7 +428,7 @@ var render = function () {
             [
               _c(
                 "b-col",
-                { attrs: { md: "3", sm: "12" } },
+                { attrs: { md: "4", sm: "12" } },
                 [
                   _c("b-icon", {
                     staticClass: "primary-color1",
@@ -445,7 +445,7 @@ var render = function () {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { md: "9", sm: "12" } },
+                { attrs: { md: "8", sm: "12" } },
                 [
                   _c("b-icon", {
                     staticClass: "primary-color1",

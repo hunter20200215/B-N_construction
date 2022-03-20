@@ -69442,7 +69442,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","D:\\\\Work\\\\WorkBench\
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_layouts_Layout_vue":"d5540906d460b4f4","resources_js_views_pages_auth_SignIn_vue":"7b645d9420205002","resources_js_views_pages_auth_AuthSignUp_vue":"9e7701c56ec6e62a","resources_js_views_pages_Home_vue":"c88e6bb104b1912e","resources_js_views_pages_About_vue":"0d01d558198e82d2"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_layouts_Layout_vue":"79e630c68ff9d867","resources_js_views_pages_auth_SignIn_vue":"7b645d9420205002","resources_js_views_pages_auth_AuthSignUp_vue":"9e7701c56ec6e62a","resources_js_views_pages_Home_vue":"c88e6bb104b1912e","resources_js_views_pages_About_vue":"0d01d558198e82d2"}[chunkId] + "";
 /******/ 		};
 /******/ 	}();
 /******/ 	
