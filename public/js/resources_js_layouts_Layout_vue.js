@@ -351,17 +351,45 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "footer font-size-sm text-center text-muted py-3" },
+    { staticClass: "footer" },
     [
-      _c("strong", [
-        _vm._v(
-          _vm._s(
-            _vm.$store.getters.appName + " " + _vm.$store.getters.appVersion
-          )
-        ),
-      ]),
-      _vm._v("\n    © " + _vm._s(_vm.$store.getters.appCopyright) + "\n"),
-    ]
+      _c(
+        "b-container",
+        [
+          _c(
+            "b-row",
+            { attrs: { "align-v": "center" } },
+            [
+              _c("b-col", { attrs: { md: "6", sm: "12" } }, [
+                _c("p", [
+                  _vm._v(
+                    "© 2022 Brighton @ Nyasha Construction Inc - All rights reserved"
+                  ),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", sm: "12" } },
+                [
+                  _c("b-img", {
+                    attrs: {
+                      src: "./images/brighton.png",
+                      fluid: "",
+                      alt: "Responsive image",
+                    },
+                  }),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ],
+        1
+      ),
+    ],
+    1
   )
 }
 var staticRenderFns = []
@@ -400,7 +428,7 @@ var render = function () {
             [
               _c(
                 "b-col",
-                { attrs: { md: "2", sm: "12" } },
+                { attrs: { md: "3", sm: "12" } },
                 [
                   _c("b-icon", {
                     staticClass: "primary-color1",
@@ -417,7 +445,7 @@ var render = function () {
               _vm._v(" "),
               _c(
                 "b-col",
-                { attrs: { md: "4", sm: "12" } },
+                { attrs: { md: "9", sm: "12" } },
                 [
                   _c("b-icon", {
                     staticClass: "primary-color1",
