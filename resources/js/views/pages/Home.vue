@@ -118,6 +118,7 @@
                 </b-row>
             </b-container>
         </section>
+        <Contact />
     </div>
    
 
@@ -126,10 +127,10 @@
 import { mapGetters } from "vuex";
 import { validationMixin } from "vuelidate";
 import { required, minLength } from "vuelidate/lib/validators";
-import AddTaskModal from "../../components/AddTaskModal";
+import Contact from "../../components/ContactSection";
 export default {
     mixins: [validationMixin],
-    components: { AddTaskModal },
+    components: { Contact },
     data() {
         return {
             form: {

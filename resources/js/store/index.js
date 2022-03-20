@@ -22,7 +22,7 @@ export default new Vuex.Store({
     state: {
         // App vital details
         app: {
-            name: "Next Basket",
+            name: "B & N CONSTRUCTION",
             version: "v1.0",
             copyright: new Date().getFullYear(),
         },

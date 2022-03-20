@@ -155,19 +155,19 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            The NEXT BASKET platform is designed for entrepreneurs and\n            traders who want to develop in the digital space, outlining the\n            easiest, fastest, most correct and safest way to develop in\n            front of them.\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n\n        "
         ),
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            We offer everything you need to start online: from warehousing\n            and product processing through the creation of a quality online\n            store to digital marketing and professional sales management.\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n\n        "
         ),
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            The complex solution and the overall approach we offer create a\n            whole new world of development opportunities – without wasting\n            time, money and effort on the path between idea and results.\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n        "
         ),
       ]),
     ]),
@@ -177,29 +177,29 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            NEXT BASKET relies on the main advantage of the Internet space –\n            global reach and unlimited possibilities. Through software\n            translation in various languages, our customers have the\n            opportunity to manage multiple stores and reach customers in\n            dozens of countries around the world.\n        "
+          "\n           B '&' N construction provide powerful development of home and business construction.\n           B '&' N construction provide powerful development of home and business construction.\n        "
         ),
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            The NEXT BASKET development plan includes the opening of\n            warehouses and offices in several countries in Central, Eastern\n            and Western Europe, as well as in our neighbors in the Balkans.\n            We believe that large-scale thinking is not a manifestation of\n            courage, but of common sense – because stable development is\n            possible only where there are no limits to the goals.\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n\n        "
         ),
       ]),
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "mt-5" }, [
-      _c("h2", [_vm._v("A new generation of marketplace")]),
+      _c("h2", [_vm._v("A new generation of Construction")]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            Our platform is focused on both the results of traders and the\n            consumer experience – both sides of the same coin. That is why\n            we have created an internal conceptual design that allows for a\n            new generation of marketplace trading – thematic, systematic and\n            intuitive.\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction..\n            B '&' N construction provide powerful development of home and business construction.\n\n        "
         ),
       ]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            Our goal is to provide fast navigation, easier targeting and\n            many times more sales by grouping niche online stores. What’s\n            more – we have turned into a mission the idea of every\n            successful sale to be no less successful purchase!\n        "
+          "\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n            B '&' N construction provide powerful development of home and business construction.\n\n        "
         ),
       ]),
     ]),

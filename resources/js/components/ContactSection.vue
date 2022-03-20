@@ -1,4 +1,10 @@
 <template>
+    <div class="my-4 text-center">
+        <p style="letter-spacing:10px;">CONTACT Brighton & Nyasha CONSTRUCTION </p>
+        <p class="primary-color1" style="font-size:50px;">+27 81 547 4711</p>
+        <p class="primary-color1 ">nyashamurasiranwa17@gmail.com</p>
+        <p class="mt-4">Muizenberg Capetown</p>
+    </div>
     
 </template>
 
@@ -14,29 +20,10 @@ export default {
     },
     
     computed: {
-        ...mapGetters({
-            isLoading: "task/isLoading",
-        }),
     },
     mounted() {},
     methods: {
-        onSubmit() {
-            this.$v.form.$touch();
-
-            if (this.$v.form.$anyError) {
-                return;
-            }
-
-            var _this = this;
-
-            this.$store
-                .dispatch("task/saveTask", { data: this.form })
-                .then((res) => {
-                    _this.form.task_name = null;
-                    _this.form.task_description = null;
-                    _this.$bvModal.hide("create_task_modal");
-                });
-        },
+        
     },
 };
 </script>
